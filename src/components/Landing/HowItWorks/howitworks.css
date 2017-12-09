@@ -1,0 +1,14 @@
+.landing--hiw {
+	padding: 60px 0;
+	min-height: 100vh;
+}
+
+.landing--hiw--container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.landing--hiw--person--container {
+	display: flex;
+	justify-content: space-between;
+}
