@@ -1,0 +1,60 @@
+.whitepaper--item {
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 2px 2px 5px rgba(187, 184, 184, 0.4);
+	width: 30%;
+	margin: 15px;
+}
+
+.whitepaper--item--container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.whitepaper--item--container header {
+	color: #000;
+	text-align: center;
+}
+
+.whitepaper--item--container header > h1 {
+	padding: 20px 0;
+}
+
+.whitepaper--line--one,
+.whitepaper--line--two,
+.whitepaper--line--three,
+.whitepaper--line--four {
+	background-color: #ededed;
+	width: 40%;
+	height: 8px;
+	border-radius: 3px;
+	margin: 8px 0;
+}
+
+.whitepaper--line--two {
+	width: 60%;
+}
+
+.whitepaper--line--three {
+	width: 75%;
+}
+
+.whitepaper--line--four {
+	width: 100%;
+}
+
+.whitepaper--item footer {
+	display: flex;
+	justify-content: center;
+}
+
+.whitepaper--item--download--button {
+	border: none;
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	color: #fff;
+	background-color: #1b71bf;
+	margin: 25px auto;
+	cursor: pointer;
+}
