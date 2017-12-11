@@ -1,9 +1,9 @@
 .footer {
 	background-color: #303030;
-	height: 500px;
 	display: flex;
 	flex-direction: column;
 	color: #fff;
+	padding: 80px 0;
 }
 
 .footer--logo--section {
@@ -20,5 +20,19 @@
 .footer--logo--section h1 {
 	font-size: 2em;
 	margin: 15px 0;
+}
+
+.footer--container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer--content--social a {
+	color: #fff;
+	text-decoration: none;
+	margin: 10px;
+	font-size: 1.2rem;
 }
 

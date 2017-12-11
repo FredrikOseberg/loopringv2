@@ -11,7 +11,7 @@
 }
 
 .features--ring--two {
-	background-color: #ff6e6e;
+	background-color: #1bbf92;
 	transform: translateX(200px);
 }
 
@@ -21,6 +21,6 @@
 }
 
 .features--ring--four {
-	background-color: #ff6e6e;
+	background-color: #1bbf92;
 	transform: translate(160px, -15px);
 }
