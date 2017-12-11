@@ -8,7 +8,7 @@ const Backers = () => (
 		<h1>Backers</h1>
 		<div className="landing--backers--container">
 			{data.map(company => {
-				return <BackerCard name={company.name} img={company.img} id={company.id} />;
+				return <BackerCard name={company.name} img={company.img} key={company.id} />;
 			})}
 		</div>
 	</section>
