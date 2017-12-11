@@ -1,0 +1,63 @@
+.features--cross--chain {
+	display: flex;
+	padding: 100px 0;
+}
+
+.features--cross--chain--information {
+	width: 50%;
+}
+
+.features--cross--chain--information h1 {
+	margin-bottom: 30px;
+}
+
+.features--cross--chain--information p {
+	color: #585858;
+	max-width: 400px;
+}
+
+.features--cross--chain--graphics {
+	display: flex;
+}
+
+.crypto--currency--block {
+	width: 80px;
+	height: 80px;
+	margin: 15px;
+	font-size: 1.3rem;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	border-radius: 3px;
+	justify-content: center;
+	box-shadow: 2px 2px 5px rgba(187, 184, 184, 0.5);
+}
+
+.crypto--currency--block--ETH {
+	background-color: #984997;
+	transform: translateY(-20px) rotate(-30deg);
+}
+
+.crypto--currency--block .cc {
+	color: #fff;
+}
+
+.crypto--currency--block--ARDR {
+	background-color: #1261a1;
+	transform: translateY(50px) rotate(30deg);
+}
+
+.crypto--currency--block--NXT {
+	background-color: #018ebb;
+	transform: translate(-40px, -100px) rotate(35deg);
+}
+
+.crypto--currency--block--NEO {
+	background-color: #57bf01;
+	transform: translateX(-40px) rotate(10deg);
+}
+
+.crypto--currency--block--LISK {
+	background-color: #1b6796;
+	transform: translate(-150px, 140px) rotate(-20deg);
+}

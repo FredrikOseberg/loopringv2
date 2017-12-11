@@ -1,0 +1,107 @@
+.features--order--sharing {
+	display: flex;
+	margin-top: 100px;
+	padding-bottom: 200px;
+}
+
+.features--order--sharing--graphics {
+	width: 50%;
+}
+
+.features--order--sharing--information {
+	width: 50%;
+}
+
+.features--order--sharing--information h1 {
+	margin-bottom: 30px;
+}
+
+.features--order--sharing--information p {
+	color: #585858;
+	max-width: 400px;
+}
+
+.features--order--dummy--order,
+.order--piece {
+	background-color: #fff;
+	max-width: 400px;
+	border-radius: 3px;
+	box-shadow: 2px 2px 5px rgba(187, 184, 184, 0.4);
+	color: #585858;
+}
+
+.order--piece {
+	margin: 15px 0;
+	padding: 10px 0;
+}
+
+.order--piece .fa-exchange-alt {
+	font-size: 1.8rem;
+}
+
+.order--piece--container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.order--piece--currency {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+}
+
+.features--order--dummy--order header {
+	color: #000;
+	border-bottom: 1px solid #ededed;
+	padding: 10px 0;
+	font-size: 1.2rem;
+}
+
+.features--order--dummy--order footer {
+	padding: 15px;
+	background-color: #2bce82;
+	color: #fff;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.features--order--dummy--order footer h2 {
+	font-size: 1.1rem;
+}
+
+.features--order--dummy--order footer h2 .fa-cogs {
+	margin-right: 8px;
+}
+
+.features--order--dummy--order--container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.features--order--dummy--order--body {
+	padding: 15px 0;
+	font-size: 1.8em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.features--order--dummy--order--currency--one {
+	display: flex;
+	flex-direction: column;
+	font-size: 1rem;
+	align-items: center;
+}
+
+.cc.ETH,
+.cc.BTC {
+	font-size: 1.8em;
+}
+
+.cc.ETH {
+	color: #984998;
+}

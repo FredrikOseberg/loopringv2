@@ -12,6 +12,10 @@
 	width: 50%;
 }
 
+.features--ring--matching--information h1 {
+	margin-bottom: 30px;
+}
+
 .features--ring--matching--information p {
 	max-width: 400px;
 	color: #585858;
