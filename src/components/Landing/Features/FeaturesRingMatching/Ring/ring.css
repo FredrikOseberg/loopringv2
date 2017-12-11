@@ -1,0 +1,26 @@
+.features--ring {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.features--ring--one {
+	background-color: #ededed;
+	transform: translate(100px, 20px);
+}
+
+.features--ring--two {
+	background-color: #ff6e6e;
+	transform: translateX(200px);
+}
+
+.features--ring--three {
+	background-color: #ededed;
+	transform: translate(100px, -20px);
+}
+
+.features--ring--four {
+	background-color: #ff6e6e;
+	transform: translate(160px, -15px);
+}

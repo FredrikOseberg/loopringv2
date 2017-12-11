@@ -1,15 +1,25 @@
-.person--chat {
+.person--chat--left,
+.person--chat--right {
 	display: flex;
 	align-items: center;
+	margin: 15px 0;
 }
 
-.person--chat img {
+.person--chat--right {
+	margin-left: auto;
+	transform: translateX(40px);
+	max-width: 450px;
+}
+
+.person--chat--left img,
+.person--chat--right img {
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
 }
 
-.person--chat--bubble {
+.person--chat--bubble--left,
+.person--chat--bubble--right {
 	background-color: #ededed;
 	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 	padding: 20px;
@@ -18,6 +28,12 @@
 	color: #585858;
 	transform: translateY(-20px);
 	position: relative;
+}
+
+.person--chat--bubble--right {
+	margin: 0 15px 0 0;
+	background-color: #1d7fd2;
+	color: #fff;
 }
 
 .person--chat--bubble--arrow--left {
@@ -32,14 +48,14 @@
 	top: 24px;
 }
 
-..person--chat--bubble--arrow--right {
+.person--chat--bubble--arrow--right {
 	width: 0;
 	height: 0;
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent;
 
-	border-left: 15px solid #ededed;
+	border-left: 15px solid #1d7fd2;
 	position: absolute;
-	right: 10px;
-	top: 24px;
+	right: -10px;
+	top: 45%;
 }

@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
 import Header from '../Header/Header';
-import HowItWorks from './HowItWorks/HowItWorks';
+import Features from './Features/Features';
 
 const Landing = () => (
 	<Fragment>
 		<Header />
-		<HowItWorks />
+		<Features />
 	</Fragment>
 );
 

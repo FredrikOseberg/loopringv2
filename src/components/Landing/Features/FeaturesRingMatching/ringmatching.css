@@ -1,0 +1,18 @@
+.features--ring--matching {
+	display: flex;
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+
+.features--ring--matching--rings {
+	width: 50%;
+}
+
+.features--ring--matching--information {
+	width: 50%;
+}
+
+.features--ring--matching--information p {
+	max-width: 400px;
+	color: #585858;
+}

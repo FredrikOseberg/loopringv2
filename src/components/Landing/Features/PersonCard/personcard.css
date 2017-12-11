@@ -1,0 +1,41 @@
+.person--card {
+	background-color: #fff;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+	max-width: 350px;
+	border-radius: 3px;
+}
+
+.person--card__header {
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #585858;
+	font-size: 0.8rem;
+}
+
+.person--card__header img {
+	margin-top: 15px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+.person--card__wallet {
+	background: linear-gradient(to right bottom, rgba(21, 87, 153, 1), rgba(32, 151, 243, 1));
+	padding: 15px;
+	color: #fff;
+}
+
+.person--card__wallet > header {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #ffff;
+	padding: 10px 0;
+}
+
+.person--card__wallet > header > img {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}

@@ -1,0 +1,23 @@
+.features--risk {
+	display: flex;
+	justify-content: space-around;
+}
+
+.features--risk--description {
+	width: 40%;
+}
+
+.features--risk--description h1 {
+	margin-bottom: 30px;
+}
+
+.features--risk--description p {
+	max-width: 400px;
+	color: #585858;
+}
+
+.features--risk--chat {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+}
