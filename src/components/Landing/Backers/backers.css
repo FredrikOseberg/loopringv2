@@ -1,0 +1,19 @@
+.landing--backers {
+	background-color: #ededed;
+}
+
+.landing--backers h1 {
+	text-align: center;
+	padding: 40px 0;
+	font-size: 2rem;
+}
+
+.landing--backers--container {
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 40px 0 100px 0;
+}
